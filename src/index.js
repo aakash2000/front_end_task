@@ -2,13 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Gripper from "./products/Gripper";
+import Rounded from "./products/Rounded";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <Router>
+       <Switch>
+          <Route exact path="/" component={App}/>
+          <Route exact path="/Gripper" component={Gripper}/>
+          <Route exact path="/Rounded" component={Rounded}/>
+       </Switch>
+    </Router>,
+    document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

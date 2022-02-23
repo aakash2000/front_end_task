@@ -24,6 +24,32 @@
   color: white;
 }
 
+.carousel-control-prev, .carousel-control-next
+{
+  background-color: lightgray !important;
+}
+
+.imagegrid:hover img {
+  transform: scale(2);
+  transition: all .2s linear;
+  width: 90% !important;
+}
+
+.logo_svg {
+  height: 50px;
+  width: 10% !important;
+}
+
+.img_robo {
+  height: 500px;
+}
+.thumb_robo{
+  height: 180px;
+}
+.header_short {
+  background-color: black;
+}
+
 .App-link {
   color: #61dafb;
 }
