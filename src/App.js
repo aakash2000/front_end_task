@@ -13,6 +13,9 @@ function App() {
         <a href="/Gripper" className="list-group-item">
           Gripper
         </a>
+        <a href="/contact_us" className="list-group-item">
+          Contact
+        </a>
       </ul>
     </div>
   );

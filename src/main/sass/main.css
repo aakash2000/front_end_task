@@ -1,0 +1,74 @@
+.base_font {
+	//styleName: Body 1/Medium - Stolzl - 16px;
+	font-family: Stolzl;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 26px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.font_stolzl {
+	font-family: Stolzl;
+}
+.contact_img {
+	width: 326px;
+}
+.call_box {
+	width: 116px;
+	border: solid 1px #BDBDBD;
+	border-radius: 25px;
+	margin-right: 0px !important;
+}
+.email_box {
+	width: 168px;
+	border: solid 1px #BDBDBD;
+	border-radius: 25px;
+	margin-right: 0px !important;
+}
+.arrow_width {
+	width: 20px;
+}
+.number_width {
+	width: 154px;
+}
+.row_width {
+	width: 340px;
+}
+.rounded_img {
+	border-radius: 25px;
+}
+.margin_auto {
+	margin: auto;
+}
+.font_bold {
+	font-weight: 600;
+}
+.font_title {
+	font-size: 20px;
+}
+.font_subtitle {
+	font-size: 18px;
+}
+.font_label_sm {
+	//styleName: Body 3/Regular - Stolzl - 12px;
+	font-family: Stolzl;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #BDBDBD;
+	width: 44px;
+}
+.font_number {
+	//styleName: Body 1/Medium - Stolzl - 16px;
+	font-family: Stolzl;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 26px;
+	letter-spacing: 0em;
+	text-align: left;
+}

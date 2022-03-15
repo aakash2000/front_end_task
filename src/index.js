@@ -5,6 +5,7 @@ import App from './App';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Gripper from "./products/Gripper";
 import Rounded from "./products/Rounded";
+import Contact from "./main/js/contact_us";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -13,6 +14,7 @@ ReactDOM.render(
           <Route exact path="/" component={App}/>
           <Route exact path="/Gripper" component={Gripper}/>
           <Route exact path="/Rounded" component={Rounded}/>
+          <Route exact path="/contact_us" component={Contact}/>
        </Switch>
     </Router>,
     document.getElementById('root')
